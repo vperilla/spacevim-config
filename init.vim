@@ -21,6 +21,9 @@ let g:spacevim_enable_debug = 1
 let g:python_host_prog = '/home/perilla/.pyenv/versions/2.7.14/envs/tryton-2.7.14/bin/python'
 let g:python3_host_prog = '/home/perilla/.pyenv/versions/3.6.4/envs/tryton-3.6.4/bin/python'
 
+" Color Scheme
+let g:spacevim_colorscheme = 'SpaceVim'
+
 " Neomake
 let g:neomake_python_enabled_makers = ['flake8']
 let g:neomake_python_flake8_args = ['--ignore=E123,E124,E126,E128,E712']
