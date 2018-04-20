@@ -39,4 +39,8 @@ call SpaceVim#layers#load('lang#html')
 call SpaceVim#layers#load('unite')
 call SpaceVim#layers#load('fzf')
 call SpaceVim#layers#load('VersionControl')
+
+" Disable default statusline
+call SpaceVim#layers#disable('core#statusline')
+call SpaceVim#layers#disable('core#tabline')
 " }}}
