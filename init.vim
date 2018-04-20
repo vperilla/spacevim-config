@@ -23,7 +23,6 @@ let g:python3_host_prog = '/home/perilla/.pyenv/versions/3.6.4/envs/tryton-3.6.4
 
 " Color Scheme
 let g:spacevim_colorscheme = 'molokai'
-" let g:spacevim_colorscheme_bg = 'light'
 
 " Neomake
 let g:neomake_python_enabled_makers = ['flake8']
@@ -39,4 +38,5 @@ call SpaceVim#layers#load('lang#javascript')
 call SpaceVim#layers#load('lang#html')
 call SpaceVim#layers#load('unite')
 call SpaceVim#layers#load('fzf')
+call SpaceVim#layers#load('VersionControl')
 " }}}
