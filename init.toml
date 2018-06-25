@@ -15,11 +15,13 @@
     statusline_inactive_separator = "arrow"
     buffer_index_type = 4
     enable_tabline_filetype_icon = true
+    max_column = 80
     enable_statusline_display_mode = false
     default_indent = 4
     expand_tab = 1
     relativenumber = 0
     lint_on_the_fly = 1
+    lint_on_save = 1
 
     bootstrap_after = "myspacevim#after"
 
