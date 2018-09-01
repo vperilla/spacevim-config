@@ -9,7 +9,6 @@
 # All SpaceVim option below [option] section
 [options]
     colorscheme = "molokai"
-    background = "dark"
     enable_guicolors = true
     statusline_separator = "arrow"
     statusline_inactive_separator = "arrow"
@@ -36,7 +35,7 @@
 
 [[layers]]
   name = 'shell'
-  default_position = 'top'
+  default_position = 'bottom'
   default_height = 30
 
 [[layers]]
@@ -56,3 +55,6 @@
 
 [[custom_plugins]]
   name = 'python-mode/python-mode'
+
+[[custom_plugins]]
+  name = 'google/vim-searchindex'
